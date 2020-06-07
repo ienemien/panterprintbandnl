@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/panterprint.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.picture-frame {
+    margin: 3vh 2vw;
+    padding: 2vh 2vw;
+    background-color: lightpink;
+}
+
+.picture-frame > .title {
+    font-family: "Franklin Gothic Heavy", serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(205, 133, 63);
+    text-align: center;
+}
+
+.title > h1 {
+    margin: 1vw;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(1, minmax(100px, 1fr));
+    grid-gap: 2vw;
+}
+
+.picture-group {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(100px, 0.5fr));
+    grid-gap: 2vw;
+}
+
+.picture-group > div {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.picture-group > div > img {
+    height: 100%;
+}
+
+.social-media-bar > ul {
+    display: flex;
+     justify-content: center;
+    list-style-type: none;
+}
+
+.social-media-bar > ul > li {
+    display: inline;
+    margin: 0.5vw;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: black;
+  color: rgb(205, 133, 63);
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
