@@ -6,8 +6,8 @@ body {
 }
 
 .picture-frame {
-    margin: 3vh 2vw;
-    padding: 2vh 2vw;
+    margin: 4vh 3vw;
+    padding: 2vh 6vw;
     background-color: lightpink;
 }
 
@@ -25,34 +25,13 @@ body {
     margin-block-end: auto;
 }
 
-.pictures {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(1, minmax(100px, 1fr));
-    grid-gap: 2vw;
-}
-
-.picture-group {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(100px, 0.5fr));
-    grid-gap: 2vw;
-}
-
-.picture-group > div {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-}
-
-.picture-group > div > img {
-    height: 100%;
+.pictures > img {
+    width: 100%;
 }
 
 .social-media-bar > ul {
     display: flex;
-     justify-content: center;
+    justify-content: center;
     list-style-type: none;
 }
 
