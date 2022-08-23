@@ -7,7 +7,7 @@ body {
 }
 
 .picture-frame {
-    margin: 4vh 20vw;
+    margin: 4vh 4vw;
     padding: 2vh 2vw;
     background-color: lightpink;
 }
@@ -21,18 +21,20 @@ body {
 }
 
 .title > h1 {
-    margin: 1vw;
+    margin: 5vw 5vh;
     margin-block-start: auto;
     margin-block-end: auto;
 }
 
 .pictures, .tour-data {
     display: flex;
+	flex-wrap: wrap;
     justify-content: center;
 }
 
 .pictures > img {
-    width: 100%;
+    width: auto;
+	height: 50vh;
     max-width: 600px;
 }
 
@@ -65,5 +67,12 @@ body {
 @media screen and (min-width: 480px) {
   .picture-frame > .title {
     font-size: 25px;
+	margin: 2vw 2vh;
   }
+  
+  .picture-frame {
+    margin: 4vh 20vw;
+    padding: 2vh 2vw;
+    background-color: lightpink;
+}
 }
