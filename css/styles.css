@@ -21,7 +21,7 @@ body {
 }
 
 .title > h1 {
-    margin: 5vw 5vh;
+    margin: 5vw;
     margin-block-start: auto;
     margin-block-end: auto;
 }
@@ -33,9 +33,9 @@ body {
 }
 
 .pictures > img {
-    width: auto;
-	height: 50vh;
-    max-width: 600px;
+    width: 100%;
+    max-width: 500px;
+	height: auto;
 }
 
 .social-media-bar > ul {
@@ -67,7 +67,7 @@ body {
 @media screen and (min-width: 480px) {
   .picture-frame > .title {
     font-size: 25px;
-	margin: 2vw 2vh;
+	margin: 2vw;
   }
   
   .picture-frame {
